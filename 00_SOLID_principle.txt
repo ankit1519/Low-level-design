@@ -33,7 +33,7 @@ D-> Dependency inversion principle
 -> Subclass should extent capability of parent class but should not narrow it down.
 -> means if class B inherits A then All the property of A should be own by B. There should not be any exception.
 ->example: suppose we create class bird with property-> eat(),sleep(),fly() and we crete a class Dog which inherits bird then it should throw exception in fly()    ohh wait what? flyyyy -> nomb.
-So, This should not happen is goal pf LSP.
+So, This should not happen is goal of LSP.
 
 
 4. Interface segmented principle:
