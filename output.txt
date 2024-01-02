@@ -1,3 +1,1 @@
-500
-Saved to DB
-Invoice Printed
+Saved Invoice:Marker: 50, Quantity: 10  into database
