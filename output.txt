@@ -1,3 +1,2 @@
-Parrot flying
-Parrot eating
-Parrot sleeping
+Food served
+Order taken
