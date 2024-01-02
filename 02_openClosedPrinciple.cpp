@@ -1,3 +1,12 @@
+/*
+Open/closed principle:
+-> Open for extention but closed for modification.
+-> If code is live or deployed, It is good practice of extend them rather than to modify
+ that piece of code in class. Here, we create a subclass from abstract class
+ (which have virtual function). Virtual function are those which can be modified by subclass. 
+ So for extension we create subclass to modify virtual functions of abstract class(parent).
+*/
+
 #include<bits/stdc++.h>
 using namespace std;
 class Marker{
