@@ -1,2 +1,2 @@
-Dog barks
-Cat meows
+Special drive capability
+Normal drive capability
