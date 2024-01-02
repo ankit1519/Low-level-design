@@ -1,3 +1,11 @@
+/*
+ Single Responsibility Principle:- 
+-> A class should have only one reason to change.
+-> If a class has multiple responsibilities, and one of those responsibilities changes, 
+it may affect the other responsibilities and introduce unexpected result.
+-> The goal is to keep classes focused and modular, making them easier to understand, modify, and maintain. 
+*/
+
 #include<bits/stdc++.h>
 using namespace std;
 class Marker{
