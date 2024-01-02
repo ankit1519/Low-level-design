@@ -1,0 +1,47 @@
+SOLID PRINCIPLE:
+
+S-> Single Responsibility Principle
+O-> Open/Closed Principle
+L-> Liskov Substitution principle
+I-> Interface segmented principle
+D-> Dependency inversion principle
+
+
+# Advantages of S.O.L.I.D principle:
+1. Avoid duplicate code
+2. Easy to understand
+3. Easy to maintain
+4. Flexible software
+5. Reduce complexity
+
+
+
+#Details:
+
+1. Single Responsibility Principle:- 
+-> A class should have only one reason to change.
+-> If a class has multiple responsibilities, and one of those responsibilities changes, it may affect the other responsibilities and introduce unexpected result.
+-> The goal is to keep classes focused and modular, making them easier to understand, modify, and maintain. 
+
+
+2. Open/closed principle:
+-> Open for extention but closed for modification.
+-> If code is live or deployed, It is good practice of extend them rather than to modify that piece of code in class. Here, we create a subclass from abstract class(which have virtual function). Virtual function are those which can be modified by subclass. So for extension we create subclass to modify virtual functions of abstract class(parent).
+
+
+3. Liskov substitution Principle:
+-> Subclass should extent capability of parent class but should not narrow it down.
+-> means if class B inherits A then All the property of A should be own by B. There should not be any exception.
+->example: suppose we create class bird with property-> eat(),sleep(),fly() and we crete a class Dog which inherits bird then it should throw exception in fly()    ohh wait what? flyyyy -> nomb.
+So, This should not happen is goal pf LSP.
+
+
+4. Interface segmented principle:
+-> Interface should be such, that client should not implement unnecessary functions that they do not need.
+-> We should segment abstract class into such small pieces so that client should not implement unnecessary functions.
+-> class should be modular.
+
+
+5. Dependency inversion principle:
+-> class should depend on interface rather than concrete class.
+-> Instead of hardcoded value, we can create generalize parent class and obtain value from there using constructor.
